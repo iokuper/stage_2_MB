@@ -1,0 +1,14 @@
+{
+  "bmc": {
+    "latest": "13.06"
+  },
+  "bios": {
+    "latest": "R14"
+  },
+  "cpld": {
+    "latest": "0x15"
+  },
+  "fpga": {
+    "latest": "v3.2"
+  }
+}

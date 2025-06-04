@@ -1,0 +1,1754 @@
+{
+  "board_model": "RSMB-MS93-FS0",
+  "baseline_date": "2025-06-03",
+  "baseline_version": "1.0",
+  "description": "Эталонная конфигурация материнской платы RSMB-MS93-FS0 (золотой образец)",
+  "processors": [
+    {
+      "socket": "CPU0",
+      "model": "INTEL(R) XEON(R) SILVER 4509Y",
+      "speed_mhz": "2600 MHz",
+      "cores": 8,
+      "threads": 16
+    },
+    {
+      "socket": "CPU1",
+      "model": "INTEL(R) XEON(R) SILVER 4509Y",
+      "speed_mhz": "2600 MHz",
+      "cores": 8,
+      "threads": 16
+    }
+  ],
+  "memory_modules": [
+    {
+      "slot": "DIMM_P0_A0",
+      "speed": "4400 MT/s",
+      "manufacturer": "Samsung",
+      "part_number": "M321R4GA3BB6-CQKET",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P0_A1",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P0_B0",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P0_B1",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P0_C0",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P0_C1",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P0_D0",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P0_D1",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P0_E0",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P0_E1",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P0_F0",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P0_F1",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P0_G0",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P0_G1",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P0_H0",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P0_H1",
+      "size": "32 GB",
+      "populated": true
+    },
+    {
+      "slot": "DIMM_P1_I0",
+      "speed": "4400 MT/s",
+      "manufacturer": "Samsung",
+      "part_number": "M321R4GA3BB6-CQKET",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P1_I1",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P1_J0",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P1_J1",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P1_K0",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P1_K1",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P1_L0",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P1_L1",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P1_M0",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P1_M1",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P1_N0",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P1_N1",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P1_O0",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P1_O1",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P1_P0",
+      "size": "No Module Installed",
+      "populated": false
+    },
+    {
+      "slot": "DIMM_P1_P1"
+    }
+  ],
+  "pci_devices": [
+    {
+      "bdf": "00:00.0 System peripheral",
+      "description": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "class": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "00:00.1 System peripheral",
+      "description": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "class": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "00:00.2 System peripheral",
+      "description": "Intel Corporation Ice Lake RAS (rev 20)",
+      "class": "Intel Corporation Ice Lake RAS (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "00:00.4 Generic system peripheral [0807]",
+      "description": "Intel Corporation Device 0b23",
+      "class": "Intel Corporation Device 0b23",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "00:0d.0 PCI bridge",
+      "description": "Intel Corporation Device 1bbd (rev 11) (prog-if 00 [Normal decode])",
+      "class": "Intel Corporation Device 1bbd (rev 11) (prog-if 00 [Normal decode])",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "00:0f.0 PCI bridge",
+      "description": "Intel Corporation Device 1bbf (rev 11) (prog-if 00 [Normal decode])",
+      "class": "Intel Corporation Device 1bbf (rev 11) (prog-if 00 [Normal decode])",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "00:14.0 USB controller",
+      "description": "Intel Corporation Emmitsburg (C740 Family) USB 3.2 Gen 1 xHCI Controller (rev 11) (prog-if 30 [XHCI])",
+      "class": "Intel Corporation Emmitsburg (C740 Family) USB 3.2 Gen 1 xHCI Controller (rev 11) (prog-if 30 [XHCI])",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "00:14.2 RAM memory",
+      "description": "Intel Corporation Device 1bce (rev 11)",
+      "class": "Intel Corporation Device 1bce (rev 11)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "00:14.4 Host bridge",
+      "description": "Intel Corporation Device 1bfe (rev 11)",
+      "class": "Intel Corporation Device 1bfe (rev 11)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "00:15.0 System peripheral",
+      "description": "Intel Corporation Device 1bff (rev 11)",
+      "class": "Intel Corporation Device 1bff (rev 11)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "00:16.0 Communication controller",
+      "description": "Intel Corporation Device 1be0 (rev 11)",
+      "class": "Intel Corporation Device 1be0 (rev 11)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "00:16.1 Communication controller",
+      "description": "Intel Corporation Device 1be1 (rev 11)",
+      "class": "Intel Corporation Device 1be1 (rev 11)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "00:16.4 Communication controller",
+      "description": "Intel Corporation Device 1be4 (rev 11)",
+      "class": "Intel Corporation Device 1be4 (rev 11)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "00:17.0 SATA controller",
+      "description": "Intel Corporation Device 1ba2 (rev 11) (prog-if 01 [AHCI 1.0])",
+      "class": "Intel Corporation Device 1ba2 (rev 11) (prog-if 01 [AHCI 1.0])",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "00:18.0 SATA controller",
+      "description": "Intel Corporation Sapphire Rapids SATA AHCI Controller (rev 11) (prog-if 01 [AHCI 1.0])",
+      "class": "Intel Corporation Sapphire Rapids SATA AHCI Controller (rev 11) (prog-if 01 [AHCI 1.0])",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "00:19.0 SATA controller",
+      "description": "Intel Corporation Sapphire Rapids SATA AHCI Controller (rev 11) (prog-if 01 [AHCI 1.0])",
+      "class": "Intel Corporation Sapphire Rapids SATA AHCI Controller (rev 11) (prog-if 01 [AHCI 1.0])",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "00:1f.0 ISA bridge",
+      "description": "Intel Corporation Device 1b81 (rev 11)",
+      "class": "Intel Corporation Device 1b81 (rev 11)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "00:1f.4 SMBus",
+      "description": "Intel Corporation Device 1bc9 (rev 11)",
+      "class": "Intel Corporation Device 1bc9 (rev 11)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "00:1f.5 Serial bus controller",
+      "description": "Intel Corporation Device 1bca (rev 11)",
+      "class": "Intel Corporation Device 1bca (rev 11)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "01:00.0 Ethernet controller",
+      "description": "Intel Corporation I350 Gigabit Network Connection (rev 01)",
+      "class": "Intel Corporation I350 Gigabit Network Connection (rev 01)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "01:00.1 Ethernet controller",
+      "description": "Intel Corporation I350 Gigabit Network Connection (rev 01)",
+      "class": "Intel Corporation I350 Gigabit Network Connection (rev 01)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "02:00.0 PCI bridge",
+      "description": "ASPEED Technology, Inc. AST1150 PCI-to-PCI Bridge (rev 06) (prog-if 00 [Normal decode])",
+      "class": "ASPEED Technology, Inc. AST1150 PCI-to-PCI Bridge (rev 06) (prog-if 00 [Normal decode])",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "03:00.0 VGA compatible controller",
+      "description": "ASPEED Technology, Inc. ASPEED Graphics Family (rev 52) (prog-if 00 [VGA controller])",
+      "class": "ASPEED Technology, Inc. ASPEED Graphics Family (rev 52) (prog-if 00 [VGA controller])",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "15:00.0 System peripheral",
+      "description": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "class": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "15:00.1 System peripheral",
+      "description": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "class": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "15:00.2 System peripheral",
+      "description": "Intel Corporation Ice Lake RAS (rev 20)",
+      "class": "Intel Corporation Ice Lake RAS (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "15:00.4 Generic system peripheral [0807]",
+      "description": "Intel Corporation Device 0b23",
+      "class": "Intel Corporation Device 0b23",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "29:00.0 System peripheral",
+      "description": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "class": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "29:00.1 System peripheral",
+      "description": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "class": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "29:00.2 System peripheral",
+      "description": "Intel Corporation Ice Lake RAS (rev 20)",
+      "class": "Intel Corporation Ice Lake RAS (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "29:00.4 Generic system peripheral [0807]",
+      "description": "Intel Corporation Device 0b23",
+      "class": "Intel Corporation Device 0b23",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "3d:00.0 System peripheral",
+      "description": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "class": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "3d:00.1 System peripheral",
+      "description": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "class": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "3d:00.2 System peripheral",
+      "description": "Intel Corporation Ice Lake RAS (rev 20)",
+      "class": "Intel Corporation Ice Lake RAS (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "3d:00.4 Generic system peripheral [0807]",
+      "description": "Intel Corporation Device 0b23",
+      "class": "Intel Corporation Device 0b23",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "51:00.0 System peripheral",
+      "description": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "class": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "51:00.1 System peripheral",
+      "description": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "class": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "51:00.2 System peripheral",
+      "description": "Intel Corporation Ice Lake RAS (rev 20)",
+      "class": "Intel Corporation Ice Lake RAS (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "51:00.4 Generic system peripheral [0807]",
+      "description": "Intel Corporation Device 0b23",
+      "class": "Intel Corporation Device 0b23",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "51:01.0 PCI bridge",
+      "description": "Intel Corporation Device 352a (rev 04) (prog-if 00 [Normal decode])",
+      "class": "Intel Corporation Device 352a (rev 04) (prog-if 00 [Normal decode])",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "52:00.0 Ethernet controller",
+      "description": "Intel Corporation Ethernet Controller X710 for 10GbE SFP+ (rev 02)",
+      "class": "Intel Corporation Ethernet Controller X710 for 10GbE SFP+ (rev 02)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "52:00.1 Ethernet controller",
+      "description": "Intel Corporation Ethernet Controller X710 for 10GbE SFP+ (rev 02)",
+      "class": "Intel Corporation Ethernet Controller X710 for 10GbE SFP+ (rev 02)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "65:00.0 System peripheral",
+      "description": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "class": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "65:00.1 System peripheral",
+      "description": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "class": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "65:00.2 System peripheral",
+      "description": "Intel Corporation Ice Lake RAS (rev 20)",
+      "class": "Intel Corporation Ice Lake RAS (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "65:00.4 Generic system peripheral [0807]",
+      "description": "Intel Corporation Device 0b23",
+      "class": "Intel Corporation Device 0b23",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "79:00.0 System peripheral",
+      "description": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "class": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "79:00.1 System peripheral",
+      "description": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "class": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "79:00.2 System peripheral",
+      "description": "Intel Corporation Ice Lake RAS (rev 20)",
+      "class": "Intel Corporation Ice Lake RAS (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "79:00.4 Generic system peripheral [0807]",
+      "description": "Intel Corporation Device 0b23",
+      "class": "Intel Corporation Device 0b23",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "79:01.0 System peripheral",
+      "description": "Intel Corporation Device 0b25",
+      "class": "Intel Corporation Device 0b25",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "79:03.0 System peripheral",
+      "description": "Intel Corporation Ice Lake MSM",
+      "class": "Intel Corporation Ice Lake MSM",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "79:03.1 System peripheral",
+      "description": "Intel Corporation Ice Lake PMON MSM",
+      "class": "Intel Corporation Ice Lake PMON MSM",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7e:00.0 System peripheral",
+      "description": "Intel Corporation Device 3250",
+      "class": "Intel Corporation Device 3250",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7e:00.1 System peripheral",
+      "description": "Intel Corporation Device 3251",
+      "class": "Intel Corporation Device 3251",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7e:00.2 System peripheral",
+      "description": "Intel Corporation Device 3252",
+      "class": "Intel Corporation Device 3252",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7e:00.3 Host bridge",
+      "description": "Intel Corporation Ice Lake IEH",
+      "class": "Intel Corporation Ice Lake IEH",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7e:00.5 System peripheral",
+      "description": "Intel Corporation Device 3255",
+      "class": "Intel Corporation Device 3255",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7e:01.0 System peripheral",
+      "description": "Intel Corporation Device 3240",
+      "class": "Intel Corporation Device 3240",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7e:01.1 System peripheral",
+      "description": "Intel Corporation Device 3241",
+      "class": "Intel Corporation Device 3241",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7e:01.2 System peripheral",
+      "description": "Intel Corporation Device 3242",
+      "class": "Intel Corporation Device 3242",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7e:02.0 System peripheral",
+      "description": "Intel Corporation Device 3240",
+      "class": "Intel Corporation Device 3240",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7e:02.1 System peripheral",
+      "description": "Intel Corporation Device 3241",
+      "class": "Intel Corporation Device 3241",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7e:02.2 System peripheral",
+      "description": "Intel Corporation Device 3242",
+      "class": "Intel Corporation Device 3242",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7e:05.0 System peripheral",
+      "description": "Intel Corporation Device 3245",
+      "class": "Intel Corporation Device 3245",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7e:05.1 System peripheral",
+      "description": "Intel Corporation Device 3246",
+      "class": "Intel Corporation Device 3246",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7e:05.2 System peripheral",
+      "description": "Intel Corporation Device 3247",
+      "class": "Intel Corporation Device 3247",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7e:06.0 System peripheral",
+      "description": "Intel Corporation Device 3245",
+      "class": "Intel Corporation Device 3245",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7e:06.1 System peripheral",
+      "description": "Intel Corporation Device 3246",
+      "class": "Intel Corporation Device 3246",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7e:06.2 System peripheral",
+      "description": "Intel Corporation Device 3247",
+      "class": "Intel Corporation Device 3247",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7e:0c.0 Performance counters",
+      "description": "Intel Corporation Device 324a",
+      "class": "Intel Corporation Device 324a",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7e:0d.0 Performance counters",
+      "description": "Intel Corporation Device 324a",
+      "class": "Intel Corporation Device 324a",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7e:0e.0 Performance counters",
+      "description": "Intel Corporation Device 324a",
+      "class": "Intel Corporation Device 324a",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7e:0f.0 Performance counters",
+      "description": "Intel Corporation Device 324a",
+      "class": "Intel Corporation Device 324a",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7e:1a.0 Performance counters",
+      "description": "Intel Corporation Device 2880",
+      "class": "Intel Corporation Device 2880",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7e:1b.0 Performance counters",
+      "description": "Intel Corporation Device 2880",
+      "class": "Intel Corporation Device 2880",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7e:1c.0 Performance counters",
+      "description": "Intel Corporation Device 2880",
+      "class": "Intel Corporation Device 2880",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7e:1d.0 Performance counters",
+      "description": "Intel Corporation Device 2880",
+      "class": "Intel Corporation Device 2880",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:00.0 System peripheral",
+      "description": "Intel Corporation Device 324c",
+      "class": "Intel Corporation Device 324c",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:00.1 System peripheral",
+      "description": "Intel Corporation Device 324c",
+      "class": "Intel Corporation Device 324c",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:00.2 System peripheral",
+      "description": "Intel Corporation Device 324c",
+      "class": "Intel Corporation Device 324c",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:00.3 System peripheral",
+      "description": "Intel Corporation Device 324c",
+      "class": "Intel Corporation Device 324c",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:00.4 System peripheral",
+      "description": "Intel Corporation Device 324c",
+      "class": "Intel Corporation Device 324c",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:00.5 System peripheral",
+      "description": "Intel Corporation Device 324c",
+      "class": "Intel Corporation Device 324c",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:00.6 System peripheral",
+      "description": "Intel Corporation Device 324c",
+      "class": "Intel Corporation Device 324c",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:00.7 System peripheral",
+      "description": "Intel Corporation Device 324c",
+      "class": "Intel Corporation Device 324c",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:01.0 System peripheral",
+      "description": "Intel Corporation Device 324c",
+      "class": "Intel Corporation Device 324c",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:01.1 System peripheral",
+      "description": "Intel Corporation Device 324c",
+      "class": "Intel Corporation Device 324c",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:01.2 System peripheral",
+      "description": "Intel Corporation Device 324c",
+      "class": "Intel Corporation Device 324c",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:01.3 System peripheral",
+      "description": "Intel Corporation Device 324c",
+      "class": "Intel Corporation Device 324c",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:0a.0 System peripheral",
+      "description": "Intel Corporation Device 324d",
+      "class": "Intel Corporation Device 324d",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:0a.1 System peripheral",
+      "description": "Intel Corporation Device 324d",
+      "class": "Intel Corporation Device 324d",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:0a.2 System peripheral",
+      "description": "Intel Corporation Device 324d",
+      "class": "Intel Corporation Device 324d",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:0a.3 System peripheral",
+      "description": "Intel Corporation Device 324d",
+      "class": "Intel Corporation Device 324d",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:0a.4 System peripheral",
+      "description": "Intel Corporation Device 324d",
+      "class": "Intel Corporation Device 324d",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:0a.5 System peripheral",
+      "description": "Intel Corporation Device 324d",
+      "class": "Intel Corporation Device 324d",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:0a.6 System peripheral",
+      "description": "Intel Corporation Device 324d",
+      "class": "Intel Corporation Device 324d",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:0a.7 System peripheral",
+      "description": "Intel Corporation Device 324d",
+      "class": "Intel Corporation Device 324d",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:0b.0 System peripheral",
+      "description": "Intel Corporation Device 324d",
+      "class": "Intel Corporation Device 324d",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:0b.1 System peripheral",
+      "description": "Intel Corporation Device 324d",
+      "class": "Intel Corporation Device 324d",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:0b.2 System peripheral",
+      "description": "Intel Corporation Device 324d",
+      "class": "Intel Corporation Device 324d",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:0b.3 System peripheral",
+      "description": "Intel Corporation Device 324d",
+      "class": "Intel Corporation Device 324d",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:1d.0 System peripheral",
+      "description": "Intel Corporation Device 344f",
+      "class": "Intel Corporation Device 344f",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:1d.1 System peripheral",
+      "description": "Intel Corporation Device 3457",
+      "class": "Intel Corporation Device 3457",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:1e.0 System peripheral",
+      "description": "Intel Corporation Device 3258 (rev 08)",
+      "class": "Intel Corporation Device 3258 (rev 08)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:1e.1 System peripheral",
+      "description": "Intel Corporation Device 3259 (rev 08)",
+      "class": "Intel Corporation Device 3259 (rev 08)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:1e.2 System peripheral",
+      "description": "Intel Corporation Device 325a (rev 08)",
+      "class": "Intel Corporation Device 325a (rev 08)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:1e.3 System peripheral",
+      "description": "Intel Corporation Device 325b (rev 08)",
+      "class": "Intel Corporation Device 325b (rev 08)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:1e.4 System peripheral",
+      "description": "Intel Corporation Device 325c (rev 08)",
+      "class": "Intel Corporation Device 325c (rev 08)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:1e.5 System peripheral",
+      "description": "Intel Corporation Device 325d (rev 08)",
+      "class": "Intel Corporation Device 325d (rev 08)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:1e.6 System peripheral",
+      "description": "Intel Corporation Device 325e (rev 08)",
+      "class": "Intel Corporation Device 325e (rev 08)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "7f:1e.7 System peripheral",
+      "description": "Intel Corporation Device 325f (rev 08)",
+      "class": "Intel Corporation Device 325f (rev 08)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "80:00.0 System peripheral",
+      "description": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "class": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "80:00.1 System peripheral",
+      "description": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "class": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "80:00.2 System peripheral",
+      "description": "Intel Corporation Ice Lake RAS (rev 20)",
+      "class": "Intel Corporation Ice Lake RAS (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "80:00.4 Generic system peripheral [0807]",
+      "description": "Intel Corporation Device 0b23",
+      "class": "Intel Corporation Device 0b23",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "97:00.0 System peripheral",
+      "description": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "class": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "97:00.1 System peripheral",
+      "description": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "class": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "97:00.2 System peripheral",
+      "description": "Intel Corporation Ice Lake RAS (rev 20)",
+      "class": "Intel Corporation Ice Lake RAS (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "97:00.4 Generic system peripheral [0807]",
+      "description": "Intel Corporation Device 0b23",
+      "class": "Intel Corporation Device 0b23",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "aa:00.0 System peripheral",
+      "description": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "class": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "aa:00.1 System peripheral",
+      "description": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "class": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "aa:00.2 System peripheral",
+      "description": "Intel Corporation Ice Lake RAS (rev 20)",
+      "class": "Intel Corporation Ice Lake RAS (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "aa:00.4 Generic system peripheral [0807]",
+      "description": "Intel Corporation Device 0b23",
+      "class": "Intel Corporation Device 0b23",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "bd:00.0 System peripheral",
+      "description": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "class": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "bd:00.1 System peripheral",
+      "description": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "class": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "bd:00.2 System peripheral",
+      "description": "Intel Corporation Ice Lake RAS (rev 20)",
+      "class": "Intel Corporation Ice Lake RAS (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "bd:00.4 Generic system peripheral [0807]",
+      "description": "Intel Corporation Device 0b23",
+      "class": "Intel Corporation Device 0b23",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "d0:00.0 System peripheral",
+      "description": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "class": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "d0:00.1 System peripheral",
+      "description": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "class": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "d0:00.2 System peripheral",
+      "description": "Intel Corporation Ice Lake RAS (rev 20)",
+      "class": "Intel Corporation Ice Lake RAS (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "d0:00.4 Generic system peripheral [0807]",
+      "description": "Intel Corporation Device 0b23",
+      "class": "Intel Corporation Device 0b23",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "d0:01.0 PCI bridge",
+      "description": "Intel Corporation Device 352a (rev 04) (prog-if 00 [Normal decode])",
+      "class": "Intel Corporation Device 352a (rev 04) (prog-if 00 [Normal decode])",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "d0:03.0 PCI bridge",
+      "description": "Intel Corporation Device 352b (rev 04) (prog-if 00 [Normal decode])",
+      "class": "Intel Corporation Device 352b (rev 04) (prog-if 00 [Normal decode])",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "d0:05.0 PCI bridge",
+      "description": "Intel Corporation Device 352c (rev 04) (prog-if 00 [Normal decode])",
+      "class": "Intel Corporation Device 352c (rev 04) (prog-if 00 [Normal decode])",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "d0:07.0 PCI bridge",
+      "description": "Intel Corporation Device 352d (rev 04) (prog-if 00 [Normal decode])",
+      "class": "Intel Corporation Device 352d (rev 04) (prog-if 00 [Normal decode])",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "d4:00.0 Non-Volatile memory controller",
+      "description": "Intel Corporation NVMe DC SSD [3DNAND, Sentinel Rock Controller] (prog-if 02 [NVM Express])",
+      "class": "Intel Corporation NVMe DC SSD [3DNAND, Sentinel Rock Controller] (prog-if 02 [NVM Express])",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "e3:00.0 System peripheral",
+      "description": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "class": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "e3:00.1 System peripheral",
+      "description": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "class": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "e3:00.2 System peripheral",
+      "description": "Intel Corporation Ice Lake RAS (rev 20)",
+      "class": "Intel Corporation Ice Lake RAS (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "e3:00.4 Generic system peripheral [0807]",
+      "description": "Intel Corporation Device 0b23",
+      "class": "Intel Corporation Device 0b23",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "e3:01.0 PCI bridge",
+      "description": "Intel Corporation Device 352a (rev 04) (prog-if 00 [Normal decode])",
+      "class": "Intel Corporation Device 352a (rev 04) (prog-if 00 [Normal decode])",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "e4:00.0 Ethernet controller",
+      "description": "Mellanox Technologies MT27800 Family [ConnectX-5]",
+      "class": "Mellanox Technologies MT27800 Family [ConnectX-5]",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "e4:00.1 Ethernet controller",
+      "description": "Mellanox Technologies MT27800 Family [ConnectX-5]",
+      "class": "Mellanox Technologies MT27800 Family [ConnectX-5]",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "f6:00.0 System peripheral",
+      "description": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "class": "Intel Corporation Ice Lake Memory Map/VT-d (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "f6:00.1 System peripheral",
+      "description": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "class": "Intel Corporation Ice Lake Mesh 2 PCIe (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "f6:00.2 System peripheral",
+      "description": "Intel Corporation Ice Lake RAS (rev 20)",
+      "class": "Intel Corporation Ice Lake RAS (rev 20)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "f6:00.4 Generic system peripheral [0807]",
+      "description": "Intel Corporation Device 0b23",
+      "class": "Intel Corporation Device 0b23",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "f6:01.0 System peripheral",
+      "description": "Intel Corporation Device 0b25",
+      "class": "Intel Corporation Device 0b25",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "f6:03.0 System peripheral",
+      "description": "Intel Corporation Ice Lake MSM",
+      "class": "Intel Corporation Ice Lake MSM",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "f6:03.1 System peripheral",
+      "description": "Intel Corporation Ice Lake PMON MSM",
+      "class": "Intel Corporation Ice Lake PMON MSM",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "fe:00.0 System peripheral",
+      "description": "Intel Corporation Device 3250",
+      "class": "Intel Corporation Device 3250",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "fe:00.1 System peripheral",
+      "description": "Intel Corporation Device 3251",
+      "class": "Intel Corporation Device 3251",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "fe:00.2 System peripheral",
+      "description": "Intel Corporation Device 3252",
+      "class": "Intel Corporation Device 3252",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "fe:00.3 Host bridge",
+      "description": "Intel Corporation Ice Lake IEH",
+      "class": "Intel Corporation Ice Lake IEH",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "fe:00.5 System peripheral",
+      "description": "Intel Corporation Device 3255",
+      "class": "Intel Corporation Device 3255",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "fe:01.0 System peripheral",
+      "description": "Intel Corporation Device 3240",
+      "class": "Intel Corporation Device 3240",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "fe:01.1 System peripheral",
+      "description": "Intel Corporation Device 3241",
+      "class": "Intel Corporation Device 3241",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "fe:01.2 System peripheral",
+      "description": "Intel Corporation Device 3242",
+      "class": "Intel Corporation Device 3242",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "fe:02.0 System peripheral",
+      "description": "Intel Corporation Device 3240",
+      "class": "Intel Corporation Device 3240",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "fe:02.1 System peripheral",
+      "description": "Intel Corporation Device 3241",
+      "class": "Intel Corporation Device 3241",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "fe:02.2 System peripheral",
+      "description": "Intel Corporation Device 3242",
+      "class": "Intel Corporation Device 3242",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "fe:05.0 System peripheral",
+      "description": "Intel Corporation Device 3245",
+      "class": "Intel Corporation Device 3245",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "fe:05.1 System peripheral",
+      "description": "Intel Corporation Device 3246",
+      "class": "Intel Corporation Device 3246",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "fe:05.2 System peripheral",
+      "description": "Intel Corporation Device 3247",
+      "class": "Intel Corporation Device 3247",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "fe:06.0 System peripheral",
+      "description": "Intel Corporation Device 3245",
+      "class": "Intel Corporation Device 3245",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "fe:06.1 System peripheral",
+      "description": "Intel Corporation Device 3246",
+      "class": "Intel Corporation Device 3246",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "fe:06.2 System peripheral",
+      "description": "Intel Corporation Device 3247",
+      "class": "Intel Corporation Device 3247",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "fe:0c.0 Performance counters",
+      "description": "Intel Corporation Device 324a",
+      "class": "Intel Corporation Device 324a",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "fe:0d.0 Performance counters",
+      "description": "Intel Corporation Device 324a",
+      "class": "Intel Corporation Device 324a",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "fe:0e.0 Performance counters",
+      "description": "Intel Corporation Device 324a",
+      "class": "Intel Corporation Device 324a",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "fe:0f.0 Performance counters",
+      "description": "Intel Corporation Device 324a",
+      "class": "Intel Corporation Device 324a",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "fe:1a.0 Performance counters",
+      "description": "Intel Corporation Device 2880",
+      "class": "Intel Corporation Device 2880",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "fe:1b.0 Performance counters",
+      "description": "Intel Corporation Device 2880",
+      "class": "Intel Corporation Device 2880",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "fe:1c.0 Performance counters",
+      "description": "Intel Corporation Device 2880",
+      "class": "Intel Corporation Device 2880",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "fe:1d.0 Performance counters",
+      "description": "Intel Corporation Device 2880",
+      "class": "Intel Corporation Device 2880",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:00.0 System peripheral",
+      "description": "Intel Corporation Device 324c",
+      "class": "Intel Corporation Device 324c",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:00.1 System peripheral",
+      "description": "Intel Corporation Device 324c",
+      "class": "Intel Corporation Device 324c",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:00.2 System peripheral",
+      "description": "Intel Corporation Device 324c",
+      "class": "Intel Corporation Device 324c",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:00.3 System peripheral",
+      "description": "Intel Corporation Device 324c",
+      "class": "Intel Corporation Device 324c",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:00.4 System peripheral",
+      "description": "Intel Corporation Device 324c",
+      "class": "Intel Corporation Device 324c",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:00.5 System peripheral",
+      "description": "Intel Corporation Device 324c",
+      "class": "Intel Corporation Device 324c",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:00.6 System peripheral",
+      "description": "Intel Corporation Device 324c",
+      "class": "Intel Corporation Device 324c",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:00.7 System peripheral",
+      "description": "Intel Corporation Device 324c",
+      "class": "Intel Corporation Device 324c",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:01.0 System peripheral",
+      "description": "Intel Corporation Device 324c",
+      "class": "Intel Corporation Device 324c",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:01.1 System peripheral",
+      "description": "Intel Corporation Device 324c",
+      "class": "Intel Corporation Device 324c",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:01.2 System peripheral",
+      "description": "Intel Corporation Device 324c",
+      "class": "Intel Corporation Device 324c",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:01.3 System peripheral",
+      "description": "Intel Corporation Device 324c",
+      "class": "Intel Corporation Device 324c",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:0a.0 System peripheral",
+      "description": "Intel Corporation Device 324d",
+      "class": "Intel Corporation Device 324d",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:0a.1 System peripheral",
+      "description": "Intel Corporation Device 324d",
+      "class": "Intel Corporation Device 324d",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:0a.2 System peripheral",
+      "description": "Intel Corporation Device 324d",
+      "class": "Intel Corporation Device 324d",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:0a.3 System peripheral",
+      "description": "Intel Corporation Device 324d",
+      "class": "Intel Corporation Device 324d",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:0a.4 System peripheral",
+      "description": "Intel Corporation Device 324d",
+      "class": "Intel Corporation Device 324d",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:0a.5 System peripheral",
+      "description": "Intel Corporation Device 324d",
+      "class": "Intel Corporation Device 324d",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:0a.6 System peripheral",
+      "description": "Intel Corporation Device 324d",
+      "class": "Intel Corporation Device 324d",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:0a.7 System peripheral",
+      "description": "Intel Corporation Device 324d",
+      "class": "Intel Corporation Device 324d",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:0b.0 System peripheral",
+      "description": "Intel Corporation Device 324d",
+      "class": "Intel Corporation Device 324d",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:0b.1 System peripheral",
+      "description": "Intel Corporation Device 324d",
+      "class": "Intel Corporation Device 324d",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:0b.2 System peripheral",
+      "description": "Intel Corporation Device 324d",
+      "class": "Intel Corporation Device 324d",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:0b.3 System peripheral",
+      "description": "Intel Corporation Device 324d",
+      "class": "Intel Corporation Device 324d",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:1d.0 System peripheral",
+      "description": "Intel Corporation Device 344f",
+      "class": "Intel Corporation Device 344f",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:1d.1 System peripheral",
+      "description": "Intel Corporation Device 3457",
+      "class": "Intel Corporation Device 3457",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:1e.0 System peripheral",
+      "description": "Intel Corporation Device 3258 (rev 08)",
+      "class": "Intel Corporation Device 3258 (rev 08)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:1e.1 System peripheral",
+      "description": "Intel Corporation Device 3259 (rev 08)",
+      "class": "Intel Corporation Device 3259 (rev 08)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:1e.2 System peripheral",
+      "description": "Intel Corporation Device 325a (rev 08)",
+      "class": "Intel Corporation Device 325a (rev 08)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:1e.3 System peripheral",
+      "description": "Intel Corporation Device 325b (rev 08)",
+      "class": "Intel Corporation Device 325b (rev 08)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:1e.4 System peripheral",
+      "description": "Intel Corporation Device 325c (rev 08)",
+      "class": "Intel Corporation Device 325c (rev 08)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:1e.5 System peripheral",
+      "description": "Intel Corporation Device 325d (rev 08)",
+      "class": "Intel Corporation Device 325d (rev 08)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:1e.6 System peripheral",
+      "description": "Intel Corporation Device 325e (rev 08)",
+      "class": "Intel Corporation Device 325e (rev 08)",
+      "width": "unknown",
+      "speed": "unknown"
+    },
+    {
+      "bdf": "ff:1e.7 System peripheral",
+      "description": "Intel Corporation Device 325f (rev 08)",
+      "class": "Intel Corporation Device 325f (rev 08)",
+      "width": "unknown",
+      "speed": "unknown"
+    }
+  ],
+  "usb_devices": [
+    {
+      "bus": "001",
+      "device": "001",
+      "vid_pid": "1d6b:0002",
+      "description": "Linux Foundation 2.0 root hub",
+      "usb_version": "USB2.0"
+    },
+    {
+      "bus": "001",
+      "device": "002",
+      "vid_pid": "0bda:5411",
+      "description": "Realtek Semiconductor Corp. RTS5411 Hub",
+      "usb_version": "USB2.0"
+    },
+    {
+      "bus": "001",
+      "device": "003",
+      "vid_pid": "0bda:5411",
+      "description": "Realtek Semiconductor Corp. RTS5411 Hub",
+      "usb_version": "USB2.0"
+    },
+    {
+      "bus": "002",
+      "device": "001",
+      "vid_pid": "1d6b:0003",
+      "description": "Linux Foundation 3.0 root hub",
+      "usb_version": "USB3.0"
+    },
+    {
+      "bus": "002",
+      "device": "002",
+      "vid_pid": "0bda:0411",
+      "description": "Realtek Semiconductor Corp. Hub",
+      "usb_version": "USB2.0"
+    },
+    {
+      "bus": "002",
+      "device": "003",
+      "vid_pid": "0bda:0411",
+      "description": "Realtek Semiconductor Corp. Hub",
+      "usb_version": "USB2.0"
+    }
+  ],
+  "storage_devices": [
+    {
+      "name": "sda",
+      "model": "SAMSUNG MZ7L3480HCHQ-00A07",
+      "size": "447.1G",
+      "type": "sata",
+      "interface": "SATA"
+    },
+    {
+      "name": "nvme0n1",
+      "model": "INTEL SSDPF2KE032T1",
+      "size": "2.9T",
+      "type": "nvme",
+      "interface": "NVMe"
+    }
+  ],
+  "riser_cards": [
+    {
+      "slot": "RISER_SLOT_1",
+      "fru_product_name": "Not detected via FRU",
+      "fru_manufacturer": "Unknown",
+      "fru_part_number": "Unknown",
+      "fru_serial_number": "Not available",
+      "populated": false,
+      "pcie_slots": []
+    }
+  ],
+  "expected_counts": {
+    "cpu_sockets": 2,
+    "cpu_cores_total": 16,
+    "cpu_threads_total": 32,
+    "memory_slots_total": 32,
+    "memory_slots_populated": 1,
+    "memory_size_total_gb": 32,
+    "pci_devices": 210,
+    "usb_devices": 6,
+    "nvme_drives": 1,
+    "sata_drives": 1,
+    "storage_devices_total": 2,
+    "riser_slots_total": 1,
+    "riser_slots_populated": 0
+  },
+  "validation_rules": {
+    "cpu_tolerance": "exact",
+    "memory_tolerance": "slots_and_size",
+    "pci_tolerance": "critical_devices",
+    "usb_tolerance": "hubs_and_controllers",
+    "storage_tolerance": "type_and_count",
+    "riser_tolerance": "optional"
+  }
+}

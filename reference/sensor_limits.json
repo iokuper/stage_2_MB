@@ -1,0 +1,473 @@
+{
+  "description": "Расширенные пределы сенсоров RSMB-MS93-FS0 согласно TRD 4.2.8.2.1-4.2.8.2.4",
+  "board_model": "RSMB-MS93-FS0",
+  "updated": "2025-06-03",
+  "baseline_source": "BMC sensor list IPMI output",
+
+  "voltage_limits": {
+    "comment": "Пределы напряжений - все линии питания с учетом номинала ±5-10%",
+    
+    "MB_P_12V": {
+      "min": 10.8,
+      "max": 13.2,
+      "nominal": 12.0,
+      "description": "Основное 12V питание материнской платы"
+    },
+    "MB_P_12V_AUX": {
+      "min": 10.8,
+      "max": 13.2,
+      "nominal": 12.0,
+      "description": "Вспомогательное 12V питание материнской платы"
+    },
+    "SCM_P_12V": {
+      "min": 10.8,
+      "max": 13.2,
+      "nominal": 12.0,
+      "description": "12V питание SCM модуля"
+    },
+    "MB_P_5V_BPB": {
+      "min": 4.75,
+      "max": 5.25,
+      "nominal": 5.0,
+      "description": "5V питание backplane материнской платы"
+    },
+    "SCM_P_5V": {
+      "min": 4.75,
+      "max": 5.25,
+      "nominal": 5.0,
+      "description": "5V питание SCM модуля"
+    },
+    "MB_P_5V_AUX": {
+      "min": 4.75,
+      "max": 5.25,
+      "nominal": 5.0,
+      "description": "Вспомогательное 5V питание материнской платы"
+    },
+    "MB_P_3V3": {
+      "min": 3.135,
+      "max": 3.465,
+      "nominal": 3.3,
+      "description": "Основное 3.3V питание материнской платы"
+    },
+    "MB_P_3V3_AUX": {
+      "min": 3.135,
+      "max": 3.465,
+      "nominal": 3.3,
+      "description": "Вспомогательное 3.3V питание материнской платы"
+    },
+    "SCM_P_3V3": {
+      "min": 3.135,
+      "max": 3.465,
+      "nominal": 3.3,
+      "description": "3.3V питание SCM модуля"
+    },
+    "SCM_P_1V8": {
+      "min": 1.71,
+      "max": 1.89,
+      "nominal": 1.8,
+      "description": "1.8V питание SCM модуля"
+    },
+    "P1V8_PCH_AUX": {
+      "min": 1.71,
+      "max": 1.95,
+      "nominal": 1.8,
+      "description": "1.8V вспомогательное питание PCH (увеличен допуск до +8%)"
+    },
+    "SCM_P_1V": {
+      "min": 0.95,
+      "max": 1.10,
+      "nominal": 1.0,
+      "description": "1.0V питание SCM модуля (увеличен допуск до +10%)"
+    },
+    "P_1V05_PCH_AUX": {
+      "min": 0.998,
+      "max": 1.103,
+      "nominal": 1.05,
+      "description": "1.05V вспомогательное питание PCH"
+    },
+    "P_VNN_PCH_AUX": {
+      "min": 0.855,
+      "max": 0.945,
+      "nominal": 0.9,
+      "description": "VNN вспомогательное питание PCH"
+    },
+    "P_VBAT_2600": {
+      "min": 3.0,
+      "max": 3.6,
+      "nominal": 3.3,
+      "description": "Батарея CR2032 - критично для сохранения настроек"
+    }
+  },
+
+  "current_limits": {
+    "comment": "Пределы токов - placeholder для будущих PMBus датчиков",
+    "CPU0_VR_CURRENT": {
+      "max": 120.0,
+      "description": "Ток VRM процессора CPU0 (примерный предел)"
+    },
+    "CPU1_VR_CURRENT": {
+      "max": 120.0,
+      "description": "Ток VRM процессора CPU1 (примерный предел)"
+    },
+    "12V_TOTAL_CURRENT": {
+      "max": 50.0,
+      "description": "Общий ток по линии 12V (примерный предел)"
+    },
+    "PSU1_OUT_CURRENT": {
+      "max": 100.0,
+      "description": "Выходной ток PSU1 (примерный предел)"
+    },
+    "PSU2_OUT_CURRENT": {
+      "max": 100.0,
+      "description": "Выходной ток PSU2 (примерный предел)"
+    }
+  },
+
+  "power_limits": {
+    "comment": "Пределы мощности - индивидуальные компоненты и общая",
+    "SYS_POWER": {
+      "max": 800,
+      "warn": 700,
+      "description": "Общая мощность системы"
+    },
+    "CPU0_PWR": {
+      "max": 300,
+      "warn": 250,
+      "description": "Мощность процессора CPU0 (placeholder)"
+    },
+    "CPU1_PWR": {
+      "max": 300,
+      "warn": 250,
+      "description": "Мощность процессора CPU1 (placeholder)"
+    },
+    "PSU1_PWR": {
+      "max": 1200,
+      "warn": 1000,
+      "description": "Мощность PSU1 (placeholder)"
+    },
+    "PSU2_PWR": {
+      "max": 1200,
+      "warn": 1000,
+      "description": "Мощность PSU2 (placeholder)"
+    }
+  },
+
+  "temperature_limits": {
+    "comment": "Пределы температур - все реально существующие температурные сенсоры",
+    
+    "CPU0_TEMP": {
+      "min": 5,
+      "max": 85,
+      "warn": 75,
+      "description": "Температура процессора CPU0"
+    },
+    "CPU1_TEMP": {
+      "min": 5,
+      "max": 85,
+      "warn": 75,
+      "description": "Температура процессора CPU1"
+    },
+    "CPU0_DTS": {
+      "max": 90,
+      "warn": 80,
+      "description": "DTS температура процессора CPU0"
+    },
+    "CPU1_DTS": {
+      "max": 90,
+      "warn": 80,
+      "description": "DTS температура процессора CPU1"
+    },
+    
+    "DIMMG0_TEMP": {
+      "min": 5,
+      "max": 85,
+      "warn": 75,
+      "description": "Температура модуля памяти DIMM G0"
+    },
+    "DIMMG1_TEMP": {
+      "min": 5,
+      "max": 85,
+      "warn": 75,
+      "description": "Температура модуля памяти DIMM G1"
+    },
+    "DIMMG2_TEMP": {
+      "min": 5,
+      "max": 85,
+      "warn": 75,
+      "description": "Температура модуля памяти DIMM G2"
+    },
+    "DIMMG3_TEMP": {
+      "min": 5,
+      "max": 85,
+      "warn": 75,
+      "description": "Температура модуля памяти DIMM G3"
+    },
+    
+    "MB_TEMP": {
+      "min": 5,
+      "max": 85,
+      "warn": 75,
+      "description": "Температура материнской платы"
+    },
+    "INLET_AIR_TEMP": {
+      "min": 0,
+      "max": 57,
+      "warn": 45,
+      "description": "Температура входящего воздуха"
+    },
+    "PCH_TEMP": {
+      "min": 5,
+      "max": 84,
+      "warn": 74,
+      "description": "Температура чипсета PCH"
+    },
+    
+    "NVMeG0_TEMP": {
+      "min": 5,
+      "max": 75,
+      "warn": 65,
+      "description": "Температура NVMe накопителя G0"
+    },
+    
+    "HDD_TEMP_0": {
+      "min": 5,
+      "max": 55,
+      "warn": 45,
+      "description": "Температура жесткого диска 0"
+    },
+    "HDD_TEMP_1": {
+      "min": 5,
+      "max": 55,
+      "warn": 45,
+      "description": "Температура жесткого диска 1"
+    },
+    
+    "M2_G5_TEMP": {
+      "min": 5,
+      "max": 92,
+      "warn": 82,
+      "description": "Температура M.2 слота G5"
+    },
+    "M2_G6_TEMP": {
+      "min": 5,
+      "max": 92,
+      "warn": 82,
+      "description": "Температура M.2 слота G6"
+    },
+    "M2_G7_TEMP": {
+      "min": 5,
+      "max": 92,
+      "warn": 82,
+      "description": "Температура M.2 слота G7"
+    },
+    "M2_G9_TEMP": {
+      "min": 5,
+      "max": 92,
+      "warn": 82,
+      "description": "Температура M.2 слота G9"
+    },
+    "M2_G10_TEMP": {
+      "min": 5,
+      "max": 92,
+      "warn": 82,
+      "description": "Температура M.2 слота G10"
+    },
+    "M2_G11_TEMP": {
+      "min": 5,
+      "max": 92,
+      "warn": 82,
+      "description": "Температура M.2 слота G11"
+    },
+    
+    "SLOT1_TEMP": {
+      "min": 5,
+      "max": 100,
+      "warn": 90,
+      "description": "Температура PCIe слота 1"
+    },
+    "SLOT2_TEMP": {
+      "min": 5,
+      "max": 100,
+      "warn": 90,
+      "description": "Температура PCIe слота 2"
+    },
+    "SLOT3_TEMP": {
+      "min": 5,
+      "max": 100,
+      "warn": 90,
+      "description": "Температура PCIe слота 3"
+    },
+    "SLOT4_TEMP": {
+      "min": 5,
+      "max": 100,
+      "warn": 90,
+      "description": "Температура PCIe слота 4"
+    },
+    "SLOT5_TEMP": {
+      "min": 5,
+      "max": 100,
+      "warn": 90,
+      "description": "Температура PCIe слота 5"
+    },
+    "SLOT6_TEMP": {
+      "min": 5,
+      "max": 100,
+      "warn": 90,
+      "description": "Температура PCIe слота 6"
+    },
+    "SLOT7_TEMP": {
+      "min": 5,
+      "max": 100,
+      "warn": 90,
+      "description": "Температура PCIe слота 7"
+    },
+    "SLOT9_TEMP": {
+      "min": 5,
+      "max": 100,
+      "warn": 90,
+      "description": "Температура PCIe слота 9"
+    },
+    "SLOT10_TEMP": {
+      "min": 5,
+      "max": 100,
+      "warn": 90,
+      "description": "Температура PCIe слота 10"
+    },
+    "SLOT11_TEMP": {
+      "min": 5,
+      "max": 100,
+      "warn": 90,
+      "description": "Температура PCIe слота 11"
+    },
+    
+    "PSU1_HOTSPOT": {
+      "min": 5,
+      "max": 107,
+      "warn": 97,
+      "description": "Температура горячей точки PSU1"
+    },
+    "PSU2_HOTSPOT": {
+      "min": 5,
+      "max": 107,
+      "warn": 97,
+      "description": "Температура горячей точки PSU2"
+    },
+    
+    "VR_VCCIN_P0_TMP": {
+      "min": 5,
+      "max": 115,
+      "warn": 100,
+      "description": "Температура VRM VCCIN процессора P0"
+    },
+    "VR_VCCIN_P1_TMP": {
+      "min": 5,
+      "max": 115,
+      "warn": 100,
+      "description": "Температура VRM VCCIN процессора P1"
+    },
+    "VR_VCCFA_P0_TMP": {
+      "min": 5,
+      "max": 115,
+      "warn": 100,
+      "description": "Температура VRM VCCFA процессора P0"
+    },
+    "VR_VCCFA_P1_TMP": {
+      "min": 5,
+      "max": 115,
+      "warn": 100,
+      "description": "Температура VRM VCCFA процессора P1"
+    },
+    "VR_P0_FAON_TEMP": {
+      "min": 5,
+      "max": 115,
+      "warn": 100,
+      "description": "Температура VRM FAON процессора P0"
+    },
+    "VR_P1_FAON_TEMP": {
+      "min": 5,
+      "max": 115,
+      "warn": 100,
+      "description": "Температура VRM FAON процессора P1"
+    },
+    "VR_P0_D_HV_TEMP": {
+      "min": 5,
+      "max": 115,
+      "warn": 100,
+      "description": "Температура VRM D_HV процессора P0"
+    },
+    "VR_P1_D_HV_TEMP": {
+      "min": 5,
+      "max": 115,
+      "warn": 100,
+      "description": "Температура VRM D_HV процессора P1"
+    }
+  },
+
+  "fan_speed_limits": {
+    "comment": "Пределы оборотов вентиляторов - из BMC thresholds",
+    "BPB_FAN_1A": {
+      "min": 1200,
+      "warn_min": 1500,
+      "max": 8000,
+      "description": "Вентилятор backplane 1A"
+    },
+    "BPB_FAN_2A": {
+      "min": 1200,
+      "warn_min": 1500,
+      "max": 8000,
+      "description": "Вентилятор backplane 2A"
+    },
+    "BPB_FAN_3A": {
+      "min": 1200,
+      "warn_min": 1500,
+      "max": 8000,
+      "description": "Вентилятор backplane 3A"
+    },
+    "BPB_FAN_4A": {
+      "min": 1200,
+      "warn_min": 1500,
+      "max": 8000,
+      "description": "Вентилятор backplane 4A"
+    }
+  },
+
+  "discrete_sensors": {
+    "comment": "Дискретные сенсоры - статусы компонентов",
+    "acceptable_statuses": {
+      "Watchdog": ["0x0080"],
+      "SEL": ["0x0080"],
+      "CPU0_Status": ["0x8080"],
+      "CPU1_Status": ["0x8080"],
+      "CPU0_MEMTRIP": ["0x0080"],
+      "CPU1_MEMTRIP": ["0x0080"],
+      "PS1_Status": ["0x0180"],
+      "PS2_Status": ["0x0180"]
+    },
+    "critical_if_different": [
+      "CPU0_Status",
+      "CPU1_Status",
+      "PS1_Status", 
+      "PS2_Status"
+    ]
+  },
+
+  "validation_rules": {
+    "comment": "Правила валидации для автоматической проверки",
+    "tolerance_mode": "strict",
+    "fail_on_missing_critical": true,
+    "warn_on_missing_optional": true,
+    "critical_sensors": [
+      "CPU0_TEMP", "CPU1_TEMP",
+      "MB_P_12V", "MB_P_5V_BPB", "MB_P_3V3",
+      "P_VBAT_2600",
+      "SYS_POWER",
+      "PSU1_HOTSPOT", "PSU2_HOTSPOT",
+      "BPB_FAN_1A", "BPB_FAN_2A", "BPB_FAN_3A", "BPB_FAN_4A"
+    ],
+    "optional_sensors": [
+      "DIMMG1_TEMP", "DIMMG3_TEMP",
+      "M2_G5_TEMP", "M2_G6_TEMP", "M2_G7_TEMP", "M2_G9_TEMP", "M2_G10_TEMP", "M2_G11_TEMP",
+      "SLOT1_TEMP", "SLOT2_TEMP", "SLOT3_TEMP", "SLOT4_TEMP", "SLOT5_TEMP", "SLOT6_TEMP", "SLOT9_TEMP", "SLOT10_TEMP", "SLOT11_TEMP"
+    ]
+  }
+}
